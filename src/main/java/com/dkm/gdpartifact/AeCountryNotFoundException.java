@@ -2,8 +2,8 @@ package com.dkm.gdpartifact;
 
 public class AeCountryNotFoundException extends RuntimeException
 {
-    public AeCountryNotFoundException(Long id)
+    public AeCountryNotFoundException(String country)
     {
-        super("Could not find country with id: " + id);
+        super("Could not find country: " + country);
     }
 }

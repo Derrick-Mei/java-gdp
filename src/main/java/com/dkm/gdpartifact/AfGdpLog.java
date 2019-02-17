@@ -20,6 +20,7 @@ public class AfGdpLog
 //        formattedDate = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss a").format(new Date());
     }
 
+    // Could have used the Lombok Annotation @Data
     @Override
     public String toString()
     {
