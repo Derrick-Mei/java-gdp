@@ -21,7 +21,7 @@ public class AdGdp
     public AdGdp(String country, Long gdp)
     {
         this.country = country;
-        gdp = gdp;
+        this.gdp = gdp;
     }
 
 }

@@ -13,8 +13,8 @@ import java.util.stream.Collectors;
 @RestController
 public class AgGdpController
 {
-    public final AcGDPRepository gdprepos;
-    public final RabbitTemplate rt;
+    private final AcGDPRepository gdprepos;
+    private final RabbitTemplate rt;
 
     public AgGdpController(AcGDPRepository gdprepos, RabbitTemplate rt)
     {

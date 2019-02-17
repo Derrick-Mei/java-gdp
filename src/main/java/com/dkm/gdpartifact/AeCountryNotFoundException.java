@@ -1,6 +1,6 @@
 package com.dkm.gdpartifact;
 
-public class AeCountryNotFoundException extends RuntimeException
+class AeCountryNotFoundException extends RuntimeException
 {
     public AeCountryNotFoundException(String country)
     {

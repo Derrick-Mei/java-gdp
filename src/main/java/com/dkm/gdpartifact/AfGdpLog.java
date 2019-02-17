@@ -4,7 +4,7 @@ import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class AfGdpLog
+class AfGdpLog
 {
     private final String text;
     private final String formattedDate;
