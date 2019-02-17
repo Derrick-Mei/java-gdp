@@ -15,8 +15,8 @@ import org.springframework.context.annotation.Bean;
 public class AaGdpNameApplication
 {
 
-    public static final String EXCHANGE_NAME = "Server-GDP";
-    public static final String QUEUE_NAME = "LogQueue-GDP";
+    public static final String EXCHANGE_NAME = "Server-Gdp";
+    public static final String QUEUE_NAME = "LogQueue-Gdp";
 
     public static void main(String[] args)
     {
