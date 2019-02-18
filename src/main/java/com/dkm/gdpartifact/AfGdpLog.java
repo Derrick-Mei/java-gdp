@@ -1,10 +1,11 @@
 package com.dkm.gdpartifact;
 
+import java.io.Serializable;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-class AfGdpLog
+class AfGdpLog implements Serializable
 {
     private final String text;
     private final String formattedDate;
@@ -20,7 +21,7 @@ class AfGdpLog
 //        formattedDate = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss a").format(new Date());
     }
 
-    // Could have used the Lombok Annotation @Data
+//     Could have used the Lombok Annotation @Data
     @Override
     public String toString()
     {
